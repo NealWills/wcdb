@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 /// Thread-safe Database object
 public class Database {

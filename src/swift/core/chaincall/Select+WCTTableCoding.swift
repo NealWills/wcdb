@@ -25,7 +25,7 @@
 #if WCDB_SWIFT_BRIDGE_OBJC
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 public extension Select {
     /// Get next selected object with type. You can do an iteration using it.

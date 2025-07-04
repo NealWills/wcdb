@@ -4,7 +4,7 @@ framework module WCDBSwift {
     }
 }
 
-framework module WCDB_Private {
+framework module WCDB_Author {
     requires objc
 
     module BridgeHeader {

@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 public final class TableConstraint: Identifier<CPPTableConstraint> {
     public init(named name: String? = nil) {
         super.init(with: WCDBTableConstraintCreate(name?.cString))

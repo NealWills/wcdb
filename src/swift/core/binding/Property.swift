@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 public protocol PropertyConvertible: ColumnConvertible, PropertyRedirectable {
     func isSwiftProperty() -> Bool

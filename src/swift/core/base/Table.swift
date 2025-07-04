@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 /// Convenient table interface
 public final class Table<Object: Any>: @unchecked Sendable {

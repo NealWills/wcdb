@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 // nullable, Int32, Int64, Double, String, Data
 public struct Value: @unchecked Sendable {

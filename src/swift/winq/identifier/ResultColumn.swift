@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 public final class ResultColumn: Identifier<CPPResultColumn> {
 

@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 // TODO: Refactor
 internal class Recyclable<Value> {

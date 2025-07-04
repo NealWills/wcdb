@@ -23,7 +23,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 internal final class ValueWrap<T> {
     var value: T

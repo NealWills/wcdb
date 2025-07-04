@@ -23,7 +23,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 public protocol TableConfiguration {
     func config(with tableBinding: TableBindingBase)

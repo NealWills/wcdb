@@ -23,7 +23,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 public protocol TransactionInterface {
     /// Separate interface of `run(transaction:)`

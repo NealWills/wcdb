@@ -23,7 +23,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 public final class ColumnConstraintConfig<CodingTableKeyType: CodingTableKey>: TableConfiguration {
     let codingKey: CodingTableKeyType

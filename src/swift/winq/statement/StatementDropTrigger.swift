@@ -23,7 +23,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 public final class StatementDropTrigger: Identifier<CPPStatementDropTrigger>, Statement {
     public init() {
         super.init(with: WCDBStatementDropTriggerCreate())

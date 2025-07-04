@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 public final class StatementCreateTable: Identifier<CPPStatementCreateTable>, Statement {
     public init() {
         super.init(with: WCDBStatementCreateTableCreate())

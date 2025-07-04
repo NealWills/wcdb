@@ -23,7 +23,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 internal final class ErrorBridge {
     static func getErrorFrom(cppError error: CPPError) -> WCDBError {

@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 /// ChainCall interface for inserting
 public protocol InsertChainCallInterface: AnyObject {

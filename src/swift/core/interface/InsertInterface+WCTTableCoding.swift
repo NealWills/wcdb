@@ -25,7 +25,7 @@
 #if WCDB_SWIFT_BRIDGE_OBJC
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 public protocol InsertInterfaceForObjc {
     /// Execute inserting with `WCTTableCoding` object on specific(or all) properties

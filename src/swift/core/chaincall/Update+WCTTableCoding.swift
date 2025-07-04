@@ -25,7 +25,7 @@
 #if WCDB_SWIFT_BRIDGE_OBJC
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 public extension Update {
     func execute<Object: WCTTableCoding>(with object: Object) throws {

@@ -19,7 +19,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 internal protocol Lockable: AnyObject {
     func lock()

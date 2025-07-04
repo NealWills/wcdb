@@ -23,7 +23,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 /// Convenient interface for updating
 public protocol UpdateInterface: AnyObject {

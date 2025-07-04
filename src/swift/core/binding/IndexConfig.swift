@@ -23,7 +23,7 @@
  */
 
 import Foundation
-import WCDB_Private
+import WCDB_Author
 
 public final class IndexConfig<CodingTableKeyType: CodingTableKey>: TableConfiguration {
     private let indexes: [IndexedColumnConvertible]

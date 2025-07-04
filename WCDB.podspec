@@ -4,7 +4,7 @@
 # pod trunk push --verbose --allow-warnings WCDB.podspec --skip-import-validation
 Pod::Spec.new do |wcdb|
   wcdb.name         = "WCDB"
-  wcdb.version      = "2.1.13"
+  wcdb.version      = "2.1.14"
   wcdb.summary      = "WCDB is a cross-platform database framework developed by WeChat."
   wcdb.description  = <<-DESC
                       The WeChat Database, for Objc/Swift/C++. (If you want to use WCDB for Objc/Swift/C++ separately, see the "WCDB.objc", "WCDB.swift" or "WCDB.cpp" pod.)
@@ -12,7 +12,7 @@ Pod::Spec.new do |wcdb|
                       WCDB is an efficient, complete, easy-to-use mobile database framework used in the WeChat application.
                       It can be a replacement for Core Data, SQLite & FMDB.
                       DESC
-  wcdb.homepage     = "https://github.com/Tencent/wcdb"
+  wcdb.homepage     = "https://github.com/NealWills/wcdb.git"
   wcdb.license      = { :type => "BSD", :file => "LICENSE" }
   wcdb.author       = { "Qiuwen-Chen" => "qwchen2008@163.com" }
   wcdb.module_name  = "WCDB"
@@ -20,7 +20,7 @@ Pod::Spec.new do |wcdb|
   wcdb.osx.deployment_target = "10.13"
   wcdb.watchos.deployment_target = "7.0"
   wcdb.tvos.deployment_target = "12.4"
-  wcdb.source       = { :git => "https://github.com/Tencent/wcdb.git", :tag => "v#{wcdb.version}" }
+  wcdb.source       = { :git => "https://github.com/NealWills/wcdb.git", :tag => "v#{wcdb.version}" }
   wcdb.public_header_files = [
   	"src/WCDB.h", 
 	"src/objc/WCDBObjc.h", 
